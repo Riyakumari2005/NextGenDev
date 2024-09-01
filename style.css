@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar {
+    background-color:rgb(162 162 175);
+
+    width:434px;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.main {
+    /* background-color: yellow; */
+    background-color: white;
+    width: 90vw;
+    height:99vh;
+
+}
+.sidebar nav{
+    padding: 52px;
+}
+.sidebar nav li{
+    list-style:none;
+    font-size: 30px;
+    padding:33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.container {
+    display: flex;
+    height:89vh;
+}
+.infocontainer{
+    /* background-color: rgb(208, 147, 193); */
+    /* background-image: url(images/frontpage2.jpg); */
+    height:60vh;
+    width:71vw;
+    margin:175px auto;
+    justify-content: space-around;
+    display: flex;
+}
+/*  
+.devpic img{
+    width: 300px;
+    height:60vh;
+} */
+   
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Playfair Display", serif;
+    align-items: center;
+}
+.hello{
+    font-size: 50px;
+}
+.name{
+    font-size: 60px;
+    font-weight: bold;
+}
+#about{
+    font-size: 48px;
+    background-image: url('images/frontpage1.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8; 
+}
+.moreabout{
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.buttons{
+    margin-top: 35px;
+}
+.btn {
+    padding:9px 14px;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: rgb(8, 62, 144);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 19px;
+}
+.btn:hover{
+    background-color:aliceblue;
+    color: rgb(8, 62, 144);
+}
+.contactform{
+  
+    padding-top: 130px;
+    padding: 94px 491px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.contactform h1{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    padding: 12px 0;
+}
+.contactform form div{
+    padding: 9px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 28vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 4px;
+    justify-content: center;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check-input{
+    width:18px
+}
+#emailHelp{
+    font-size: 13px;
+    color: rgb(239, 239, 241);
+    margin:0 5px;
+    padding: 3px 0 0 0;
+}
+
+
+#education, #skills {
+    margin: 50px 0;
+}
+
+#education h1, #skills h1 {
+    font-size: 3em;
+    margin-bottom: 38px;
+    text-align: center;
+}
+
+.education-item, .skill-item {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.education-item h3, .skill-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #282626;
+}
+
+.education-item p, .skill-item ul {
+    margin: 5px 0;
+    color: #343131;
+}
+
+.education-item ul, .skill-item ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.education-item ul li, .skill-item ul li {
+    margin-bottom: 5px;
+    color: #282727;
+}
+
+.education-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-item {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+}
+.center{
+    text-align: center;
+    margin-left: 40vh;
+}
